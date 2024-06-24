@@ -21,7 +21,7 @@ import { Metadata } from 'next'
 const noto_serif = Noto_Serif({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-noto-serif'
+  variable: '--font-noto-serif',
 })
 
 export const metadata: Metadata = {
