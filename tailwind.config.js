@@ -26,7 +26,7 @@ module.exports = {
         sans: ['var(--font-noto-serif)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.cyan,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
@@ -35,7 +35,7 @@ module.exports = {
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
-                color: `${theme('colors.primary.600')}`,
+                color: `${theme('colors.primary.400')}`,
               },
               code: { color: theme('colors.primary.400') },
             },
