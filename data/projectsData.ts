@@ -18,6 +18,13 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/projects/dictationdaily.png',
     href: 'https://dictationdaily.com',
   },
+  {
+    title: 'Paper Stream',
+    description:
+      'My friends and I built a paper streaming solution for remote education, and our project won Second Place in the SoICT - IBM Hackathon 2020 at HUST. I was responsible for the computer vision component, which processed the camera image into a scanned image in real-time.',
+    imgSrc: '/static/images/projects/paperstream.png',
+    href: 'https://github.com/vietanhdev/paper_stream',
+  },
 ]
 
 export default projectsData
