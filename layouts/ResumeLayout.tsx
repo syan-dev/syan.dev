@@ -20,7 +20,7 @@ interface Publication {
   link: string
 }
 
-interface PetProject {
+interface Project {
   title: string
   description: string
   imgSrc: string
@@ -42,7 +42,7 @@ interface ResumeLayoutProps {
     cvLink: string
   }
   publications: Publication[]
-  projects: PetProject[]
+  projects: Project[]
 }
 
 const ResumeLayout: React.FC<ResumeLayoutProps> = ({

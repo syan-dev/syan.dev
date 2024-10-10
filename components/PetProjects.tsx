@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-interface PetProject {
+interface Project {
   title: string
   description: string
   imgSrc: string
@@ -10,7 +10,7 @@ interface PetProject {
 }
 
 interface PetProjectsProps {
-  projects: PetProject[]
+  projects: Project[]
 }
 
 const PetProjects: React.FC<PetProjectsProps> = ({ projects }) => {
