@@ -45,7 +45,7 @@ const Introduction: React.FC<IntroductionProps> = ({
       </div>
       <div className="rounded-lg bg-pink-100 p-4 text-center dark:bg-pink-900">
         <p className="font-medium text-pink-800 dark:text-pink-200">
-          I'm interested in Master Internship in Grenoble, France!
+          I'm interested in Master Internship in France!
           <Link
             href={cvLink}
             className="ml-2 underline hover:text-pink-600 dark:hover:text-pink-300"
